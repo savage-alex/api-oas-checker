@@ -62,6 +62,15 @@ const html = `<!DOCTYPE html>
     h3 {
         margin: 48px 0 24px 0;
     }
+    code, kbd {
+      color: white;
+      background-color: black;
+    }
+    pre {
+        color: white;
+        background-color: black;
+        padding: 20px !important;
+    }
     </style>
     <title>${title}</title>
 </head>
